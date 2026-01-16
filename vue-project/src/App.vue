@@ -1,11 +1,33 @@
-<script setup></script>
+<script setup>
+import Navbar from './components/Navbar.vue'
+import Footer from './components/Footer.vue'
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <div id="app">
+    <Navbar />
+    <main class="main-content">
+      <router-view />
+    </main>
+    <Footer />
+  </div>
 </template>
 
-<style scoped></style>
+<style>
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f9fafc;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+}
+</style>
