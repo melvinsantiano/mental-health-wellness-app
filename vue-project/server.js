@@ -5,7 +5,7 @@ import cors from 'cors'
 const app = express()
 app.use(cors())
 
-const HF_API_KEY = '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' // paste your token here
+const HF_API_KEY = 'secret' // paste your token here
 
 app.get('/ai', async (req, res) => {
   const query = req.query.query
