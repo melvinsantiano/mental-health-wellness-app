@@ -6,10 +6,7 @@ This project is developed as part of **Software Engineering 2 – Laboratory Act
 ---
 
 ## 📌 Team Members
-- Name 1 – Role (e.g., Frontend Developer)
-- Name 2 – Role (e.g., Backend Developer)
-- Name 3 – Role (e.g., Designer)
-- *(Add all teammates here)*
+- Name 1 – Role (Developer)
 
 ---
 
